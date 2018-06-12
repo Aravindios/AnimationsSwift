@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Volumes/cogzidel/Aravind/git/AnimationsSwift/DerivedData/Swift-Animations/Build/Products/Debug-iphonesimulator/Pods_Swift_Animations.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Swift-Animations-umbrella.h",
+          'external-contents': "/Volumes/cogzidel/Aravind/git/AnimationsSwift/Pods/Target Support Files/Pods-Swift-Animations/Pods-Swift-Animations-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Swift_Animations-Swift.h",
+          'external-contents': "/Volumes/cogzidel/Aravind/git/AnimationsSwift/DerivedData/Swift-Animations/Build/Products/Debug-iphonesimulator/Pods_Swift_Animations.framework/Headers/Pods_Swift_Animations-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Volumes/cogzidel/Aravind/git/AnimationsSwift/DerivedData/Swift-Animations/Build/Products/Debug-iphonesimulator/Pods_Swift_Animations.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Volumes/cogzidel/Aravind/git/AnimationsSwift/DerivedData/Swift-Animations/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Swift-Animations.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
