@@ -1,10 +1,9 @@
-env.PATH = '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin'
+   env.PATH = '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin'
 env.HOME = '/Users/iosbuilds'
 env.USER = 'iosbuilds'
 // backwards compat with old branch variable
 env.GIT_BRANCH = env.BRANCH_NAME
-
-node {
+ node {
     stage('Checkout/Build/Test') {
         // Checkout files.
         checkout([
@@ -17,13 +16,7 @@ node {
                 url: 'https://github.com/Aravindios/AnimationsSwift'
             ]]
         ])
-  
-       //     sh 'brew cask install fastlane'
-         //      sh 'fastlane init' 
-    sh 'fastlane init'  
-      //  sh'fastlane beta'
-            
-// sh "bundle exec fastlane gym"
+ sh 'fastlane init'     
 
     }
-}
+ }
