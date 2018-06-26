@@ -17,12 +17,12 @@ node {
                 url: 'https://github.com/Aravindios/Todo.git/'
             ]]
         ])
-        node {
+  
        //     sh 'brew cask install fastlane'
          //      sh 'fastlane init' 
     sh 'fastlane init'   
             
 // sh "bundle exec fastlane gym"
-        }
+
     }
 }
