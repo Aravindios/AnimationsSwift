@@ -20,7 +20,8 @@ node {
   
        //     sh 'brew cask install fastlane'
          //      sh 'fastlane init' 
-    sh 'fastlane init'   
+    sh 'fastlane init'  
+        sh'fastlane beta'
             
 // sh "bundle exec fastlane gym"
 
