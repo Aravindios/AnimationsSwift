@@ -16,7 +16,11 @@ env.GIT_BRANCH = env.BRANCH_NAME
                 url: 'https://github.com/Aravindios/AnimationsSwift'
             ]]
         ])
- sh 'fastlane'     
+        sh 'gem cleanup'   
+        sh 'bundle init' 
+         sh 'echo 'gem "fastlane"' >> Gemfile' 
+         sh ' bundle install' 
+        sh 'fastlane'     
 
     }
  }
