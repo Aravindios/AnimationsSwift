@@ -14,14 +14,14 @@ node {
             extensions: [], submoduleCfg: [],
             userRemoteConfigs: [[
                 name: 'hannatest',
-                url: 'https://github.com/Aravindios/AnimationsSwift/'
+                url: 'https://github.com/Aravindios/AnimationsSwift'
             ]]
         ])
   
        //     sh 'brew cask install fastlane'
          //      sh 'fastlane init' 
     sh 'fastlane init'  
-        sh'fastlane beta'
+      //  sh'fastlane beta'
             
 // sh "bundle exec fastlane gym"
 
