@@ -16,7 +16,7 @@ env.GIT_BRANCH = env.BRANCH_NAME
                 url: 'https://github.com/Aravindios/AnimationsSwift'
             ]]
         ])
- sh 'fastlane init'     
+ sh 'fastlane'     
 
     }
  }
