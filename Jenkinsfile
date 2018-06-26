@@ -17,9 +17,9 @@ env.GIT_BRANCH = env.BRANCH_NAME
             ]]
         ])
         sh 'gem cleanup'   
-        sh 'bundle init' 
-         sh 'echo 'gem "fastlane"' >> Gemfile' 
-         sh ' bundle install' 
+        sh 'brew cask install fastlane' 
+  //       sh 'echo 'gem "fastlane"' >> Gemfile' 
+ //        sh ' bundle install' 
         sh 'fastlane'     
 
     }
